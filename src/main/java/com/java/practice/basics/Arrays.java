@@ -39,6 +39,7 @@ public static void main(String[] args) {
     String[] palabras = {"Hola", "Mundo", "Java", "Spring"};
     String palabraBuscada = "Java";
     boolean encontrado = buscarElemento(palabras, palabraBuscada);
-    System.out.println("¿La palabra '" + palabraBuscada + "' está en el array? " + encontrado);
+    System.out.println("¿La palabra corresponde '" + palabraBuscada + "' está en el array? " + encontrado);
 }
+
 }
